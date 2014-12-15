@@ -71,7 +71,6 @@ nav ul ul li a{
 	display:block;
 	text-decoration: none;
 	border-radius: 5px;
-	border: solid 1px white;
 	padding: 8px;
 	font-family: Open Sans, Arial;
 	font-size: 14px;

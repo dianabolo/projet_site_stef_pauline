@@ -34,61 +34,6 @@ div.clear {
 clear: both;
 }
 
-/* Code repris de :http://all-for-design.com/tutoriaux/tutoriel-realiser-un-fil-dariane-avance-en-css/ 
-
-/*Largeur du div englobant*/
-#fil-ariane {width:500px;}
-
-/*Reset sur les éléments de la liste*/
-#fil-ariane ul, #fil-ariane li {
-list-style-type:none;
-margin:0;
-padding:0;
-}	
-
-/*Style de la liste*/	
-#fil-ariane ul{
-font-family:"Open Sans",,Arial,Verdana,sans-serif;
-margin:10px auto;
-padding:10px;
-}	
-
-/*Premier élément de la liste*/
-#fil-ariane li.first {
-background:url("img/first-left.png") 0 0 no-repeat;
-height:33px;
-}
-
-/*Tous les éléments de la liste sauf premier et dernier*/
-#fil-ariane li {
-float:left;
-background:url("img/general-left.png") 0 0 no-repeat;
-line-height:33px;
-margin:5px -5px 0 0;
-padding-left:13px;
-}	
-
-/*Style de élément central : a (pour tous les éléments sauf le dernier) et span(pour dernier élément de la liste)*/
-#fil-ariane li a, #fil-ariane li span {
-float:left;
-background:url("img/bg-gradient.jpg") 0 0 repeat-x;
-height:33px;
-margin:0;
-padding:0 0 0 5px;
-font-size:11px;
-text-transform:uppercase;
-letter-spacing:0.02em;
-}	
-
-/*Style du span.end pour image de droite*/
-#fil-ariane li span.end {
-float:left;
-background:url("img/general-right.jpg") 0 0 no-repeat;
-width:15px;
-height:33px;
-}							
-
-
 div#search-zone {
 position:relative;
 top: -160px;

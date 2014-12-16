@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8" ?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>nav</title>
+<link rel="stylesheet" type="text/css" href="alin.css">
+</head>
+<body>
+<div id="main-container">
+<header id="header">
+<a id="deft" href="index.html"><img id="logo" src="img/logo.jpg" alt="logo" /></a>
+<h1 id="slogan">DÉfi Fouille de Textes</h1>
+<div id="search-zone">
+<input id="field" placeholder="Rechercher" />
+<button id="button"><img id="logo-loupe" src="img/loupe.png" /></button>
+</div>
+</header>
+<div class="clear"></div>
+<nav>
+	<ul>
+		<li><a class="nav-link" href="#">Campagne en cours</a>
+		<ul class="nav-link2">
+			<li><a href="cec-desc.html">Présentation</a></li>
+			<li><a href="cec-regle.html">Règlement</a></li>
+			<li><a href="corpus-2014">Corpus</a></li>
+			<li><a href="actes-2014">Actes</a></li>
+			<li><a href="inscription.html">Inscription</a></li>
+			<li><a href="cec-infos.html">Informations pratiques</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#">Campagnes antérieures</a>
+<ul>
+<li><a href="ca-desc.html">Présentation</a></li>
+<li><a href="crp-2013.html">Corpus</a></li>
+<li><a href="actes-2013.html">Actes</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#">Actes</a>
+<ul>
+<li><a href="actes-2014.html">Actes 2014</a></li>
+<li><a href="actes-2013.html">Actes 2013</a></li>
+<li><a href="actes-2012.html">Actes 2012</a></li>
+<li><a href="actes-2011.html">Actes 2011</a></li>
+<li><a href="actes-2010.html">Actes 2010</a></li>
+<li><a href="actes-2009.html">Actes 2009</a></li>
+<li><a href="actes-2008.html">Actes 2008</a></li>
+<li><a href="actes-2007.html">Actes 2007</a></li>
+<li><a href="actes-2006.html">Actes 2006</a></li>
+<li><a href="actes-2005.html">Actes 2005</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#">Corpus</a>
+<ul>
+<li><a href="crp-2014.html">Corpus 2014</a></li>
+<li><a href="crp-2013.html">Corpus 2013</a></li>
+<li><a href="crp-2012.html">Corpus 2012</a></li>
+<li><a href="crp-2011.html">Corpus 2011</a></li>
+<li><a href="crp-2010.html">Corpus 2010</a></li>
+<li><a href="crp-2009.html">Corpus 2009</a></li>
+<li><a href="crp-2008.html">Corpus 2008</a></li>
+<li><a href="crp-2007.html">Corpus 2007</a></li>
+<li><a href="crp-2006.html">Corpus 2006</a></li>
+<li><a href="crp-2005.html">Corpus 2005</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div class="clear"></div>
+
+<div class="clear"></div>
+<br/>
+<div id="content">
+</div>
+<div id="news">
+<aside>
+<div id=info>
+<p>Tenez-vous au courant de nos dernières nouvelles</p>
+<form id="info" method="post" action="#" enctype="application/x-www-form-urlencoded">
+<input name="mail" type="text" placeholder="Votre adresse e-mail">
+</form>
+</div>
+<ul id="social-networks">
+<li><a href="#"><img src="img/facebook.png"></img></a></li>
+<li><a href="#"><img src="img/twitter.png"></img></a></li>
+<li><a href="#"><img src="img/rss.png"></img></a></li>
+<li><a href="#"><img src="img/3-boules.png"></img></a></li>
+</ul>
+<div class="clear"></div>
+<br/><hr>
+
+<div id="news-box">
+<p id="header">Actualités</p>
+<p class="news-item"><strong>12/03/2014</strong> maman va au marché</p>
+<div id="footer">
+<button id="previous">&#9664</button>
+<span id="pages-count">1/1</span>
+<button id="next">&#9658</button>
+</div>
+<div>
+</aside>
+</div>
+<div class="clear"></div>
+<br/>
+<footer>
+<ul>
+<li id="registered-tm">&reg; 2014 DEFT</li>
+<li class="links"><a href="#">Plan du site</a></li>
+<li class="links"><a href="#">FAQ</a></li>
+<li class="links"><a href="#">Contacts</a></li>
+</ul>
+</footer>
+<div class="clear"></div>
+</div>
+</body>
+</html>

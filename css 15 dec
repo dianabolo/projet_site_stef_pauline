@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image: url("img/fond.jpg");
+background-repeat: repeat;
+margin-top:0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+margin: 0px;
+padding: 0px;
+}
+div#main-container {
+width: 960px;
+background-color: white;
+border-color: 50px rgba( 255,255,0.5);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+header a#deft {
+float: left;
+}
+header h1#slogan {
+color: rgb(159,26,40);
+font-size: 64px;
+padding-top: 100px;
+text-align: center;
+}
+div.clear {
+/*reset du float pour les élements HTML en dessous du div sur laquelle on applique cette classe*/
+clear: both;
+}
+
+/* Code repris de :http://all-for-design.com/tutoriaux/tutoriel-realiser-un-fil-dariane-avance-en-css/ 
+
+/*Largeur du div englobant*/
+#fil-ariane {width:500px;}
+
+/*Reset sur les éléments de la liste*/
+#fil-ariane ul, #fil-ariane li {
+list-style-type:none;
+margin:0;
+padding:0;
+}	
+
+/*Style de la liste*/	
+#fil-ariane ul{
+font-family:"Open Sans",,Arial,Verdana,sans-serif;
+margin:10px auto;
+padding:10px;
+}	
+
+/*Premier élément de la liste*/
+#fil-ariane li.first {
+background:url("img/first-left.png") 0 0 no-repeat;
+height:33px;
+}
+
+/*Tous les éléments de la liste sauf premier et dernier*/
+#fil-ariane li {
+float:left;
+background:url("img/general-left.png") 0 0 no-repeat;
+line-height:33px;
+margin:5px -5px 0 0;
+padding-left:13px;
+}	
+
+/*Style de élément central : a (pour tous les éléments sauf le dernier) et span(pour dernier élément de la liste)*/
+#fil-ariane li a, #fil-ariane li span {
+float:left;
+background:url("img/bg-gradient.jpg") 0 0 repeat-x;
+height:33px;
+margin:0;
+padding:0 0 0 5px;
+font-size:11px;
+text-transform:uppercase;
+letter-spacing:0.02em;
+}	
+
+/*Style du span.end pour image de droite*/
+#fil-ariane li span.end {
+float:left;
+background:url("img/general-right.jpg") 0 0 no-repeat;
+width:15px;
+height:33px;
+}							
+
+
+div#search-zone {
+position:relative;
+top: -160px;
+right: 50px;
+left: 500px;
+margin-right: 15px;
+padding-top: 10px;
+padding-right: 10px;
+}
+input {
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: solid 1px black;
+}
+img#logo-loupe {
+width: 10px;
+height: 10px;
+}
+button {
+
+border-radius: 50%;
+cursor: pointer;
+}
+nav {
+text-align: center;
+}
+/* Début de la navigation globale */
+nav {
+text-align: center;
+}
+nav ul{
+list-style-type: none;
+padding-left: 33px;
+}
+nav ul li{
+position:relative;
+float: left;
+padding-right: 10px;
+text-decoration: none;
+}
+nav ul li:last-child{
+padding-right: 0px;
+}
+nav ul li a.nav-link, nav ul li a.nav-link:active, nav ul li a.nav-link:hover {
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 8px;
+font-size: 14px;
+display: block;
+width: 200px;
+font-weight: bold;
+}
+nav ul li a.nav-link {
+color: white;
+font-family: Open Sans, Arial;
+background-color: #252A47 ;
+}
+nav ul li a.nav-link:hover {
+color: #FFFFFF;
+background-color: #A01B2E;
+}
+nav ul li a.nav-link:active {
+color: white;
+background-color: rgb(159,26,40);
+border: solid 1px white;
+}
+nav ul ul {
+display:none;
+position:absolute;
+top:100%;
+left:0;
+padding:0;
+}
+nav ul li:hover > ul
+{
+display:block
+}
+nav ul ul li{
+float:none;
+width:200px;
+}
+nav ul ul li a{
+display:block;
+text-decoration: none;
+border-radius: 5px;
+padding: 8px;
+font-family: Open Sans, Arial;
+font-size: 14px;
+width: 200px;
+color: white;
+background-color: #252A47 ;
+}
+nav ul ul li a:hover {
+color: #FFFFFF;
+background-color: #A01B2E;
+}
+/* Fin de la navigation globale */
+
+footer {
+border: solid 1px black;
+background-color: rgb(37,42,71);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin: 20px;
+}
+li#registered-tm {
+float: left;
+margin-left: -13px;
+}
+footer {
+height: 50px;
+}
+footer ul li {
+list-style-type: none;
+}
+footer ul li.links {
+float: right;
+padding-right: 20px;
+}
+li#registered-tm, footer ul li.links a {
+color: white;
+}
+footer ul li.links a:hover {
+color: white;
+text-decoration:none;
+text-shadow:2px 2px #A01B2E;
+}
+
+footer ul li.links a:visited {
+color: #D9D9D9;
+text-decoration:none;
+}
+
+ul li.fil-ariane {
+list-style-type: none;
+float: left;
+margin-left: -10px;
+}
+ul li.fil-ariane a, ul li.fil-ariane a:hover {
+color: rgb(159,26,40);
+}
+ul li.fil-ariane a {
+text-decoration: underline;
+}
+ul li.fil-ariane a:hover {
+text-decoration: none;
+}
+div#content {
+float: left;
+margin-left: 30px;
+width: 600px;
+}
+div#news {
+float: right;
+margin-right: 20px;
+width: 300px;
+}
+form#info input {
+width: 295px;
+}
+div#info p {
+font-size: 13px;
+font-weight: bold;
+}
+ul#social-networks li {
+list-style-type: none;
+padding-right: 15px;
+float: left;
+}
+ul#social-networks li a {
+text-decoration: none;
+}
+div#news-box {
+border: solid 1px grey;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+p#header, div#footer {
+font-size: 30px;
+color: white;
+background-color: grey;
+}
+div#news-box p#header {
+text-align: center;
+}
+div#footer {
+text-align: right;
+padding-bottom: 5px;
+padding-right: 5px;
+}
+div#footer button {
+border: solid 1px white;
+height: 28px;
+width: 28px;
+}
+div#news-box p.news-item {
+font-size: 16px;
+padding: 5px;
+}
+div#news-box div#footer span#pages-count {
+font-size: 16px;
+}

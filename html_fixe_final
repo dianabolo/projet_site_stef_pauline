@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8"/>
+	<title>Modele</title>
+	<link rel="stylesheet" type="text/css" href="css/deft.css"/>
+</head>
+
+<body>
+	<div id="main-container">
+
+	<header id="header">
+		<a id="deft" href="index.html"><img id="logo" src="img/logo.jpg" alt="logo" /></a>
+		<h1 id="slogan">DÉfi Fouille de Textes</h1>
+	<div id="search-zone">
+		<input id="field" placeholder="Rechercher" />
+		<button id="button"><img id="logo-loupe" src="img/loupe.png" alt="logo search box" /></button>
+	</div>
+	</header>
+	
+<div class="clear"></div>
+	
+	<nav>
+	<ul>
+		<li><a class="nav-link" href="#">Campagne en cours</a>
+			<ul class="nav-link2">
+				<li><a href="cec-desc.html">Présentation</a></li>
+				<li><a href="cec-regle.html">Règlement</a></li>
+				<li><a href="corpus-2014">Corpus</a></li>
+				<li><a href="actes-2014">Actes</a></li>
+				<li><a href="inscription.html">Inscription</a></li>
+				<li><a href="cec-infos.html">Informations pratiques</a></li>
+			</ul>
+		</li>
+		
+		<li> <a class="nav-link" href="#">Campagnes antérieures</a>
+			<ul>
+				<li><a href="ca-desc.html">Présentation</a></li>
+				<li><a href="crp-2013.html">Corpus</a></li>
+				<li><a href="actes-2013.html">Actes</a></li>
+			</ul>
+		</li>
+		
+		<li><a class="nav-link" href="#">Actes</a>
+			<ul>
+			<li><a href="actes-2014.html">Actes 2014</a></li>
+			<li><a href="actes-2013.html">Actes 2013</a></li>
+			<li><a href="actes-2012.html">Actes 2012</a></li>
+			<li><a href="actes-2011.html">Actes 2011</a></li>
+			<li><a href="actes-2010.html">Actes 2010</a></li>
+			<li><a href="actes-2009.html">Actes 2009</a></li>
+			<li><a href="actes-2008.html">Actes 2008</a></li>
+			<li><a href="actes-2007.html">Actes 2007</a></li>
+			<li><a href="actes-2006.html">Actes 2006</a></li>
+			<li><a href="actes-2005.html">Actes 2005</a></li>
+			</ul>
+		</li>
+		
+		<li><a class="nav-link" href="#">Corpus</a>
+			<ul>
+			<li><a href="crp-2014.html">Corpus 2014</a></li>
+			<li><a href="crp-2013.html">Corpus 2013</a></li>
+			<li><a href="crp-2012.html">Corpus 2012</a></li>
+			<li><a href="crp-2011.html">Corpus 2011</a></li>
+			<li><a href="crp-2010.html">Corpus 2010</a></li>
+			<li><a href="crp-2009.html">Corpus 2009</a></li>
+			<li><a href="crp-2008.html">Corpus 2008</a></li>
+			<li><a href="crp-2007.html">Corpus 2007</a></li>
+			<li><a href="crp-2006.html">Corpus 2006</a></li>
+			<li><a href="crp-2005.html">Corpus 2005</a></li>
+			</ul>
+		</li>
+		
+	</ul>
+	</nav>
+	
+<div class="clear"></div>
+
+	<br/>
+	
+	<div id="content">
+		
+	</div>
+	
+
+	<aside>
+	<div id="news">
+			<div id="info">
+				<p>Soyez tenu au courant:</p>
+				<form class="info" method="post" action="#" enctype="application/x-www-form-urlencoded"/>
+				<input name="mail" type="text" placeholder="Votre adresse e-mail"/>
+				<button class="ok.button" type="submit">OK</button>
+			</div>
+	
+				<ul id="social-networks">
+					<li><a href="#"><img src="img/facebook.png" alt="logo facebook"></img></a></li>
+					<li><a href="#"><img src="img/twitter.png" alt="logo twitter"></img></a></li>
+					<li><a href="#"><img src="img/rss.png" alt="logo rss"></img></a></li>
+					<li><a href="#"><img src="img/3-boules.png" alt="logo partage"></img></a></li>
+				</ul>	
+
+		<div class="clear"></div>
+		<br/>
+
+			<div id="news-box">
+			<p id="actu">Actualités</p>
+			<ul class="news-item">
+				<li>10/06/2014: les actes de l'atelier sont en ligne.</li>
+				<li>14/05/2014: tous les scripts d'évaluation sont en ligne.</li>
+				<li>22/04/2014: décalage de la phase de test à la mi-mai 2014.</li>
+				<li>17/04/2014: pensez à nous faire part des dates choisies pour la phase de test.</li>
+				<li>27/03/2014: une <a href="FAQ.html">FAQ</a> a été ajoutée.</li>
+				<li>18/03/2014: il est possible de récupérer les corpus de la tâche 4 et d'y participer sans signer les contrats, voir la page de présentation des <a href="crp-2014.html">corpus</a>.</li>
+				<li>12/03/2014: début de la distribution des corpus aux équipes ayant signé le contrat d'utilisation.</li>
+		</ul>
+			</div>
+			<div id="footer">
+			</div>
+	</div>
+	</aside>
+
+<div class="clear"></div>
+	<br/>
+	
+	<footer>
+		<ul>
+			<li id="registered-tm"> &#169; 2014 DEFT</li>
+			<li class="links"><a href="#">Plan du site</a></li>
+			<li class="links"><a href="#">FAQ</a></li>
+			<li class="links"><a href="#">Contacts</a></li>
+		</ul>
+	</footer>
+
+</div>
+</body>
+</html>
